@@ -11,7 +11,7 @@
   -  used godoenv to load env variables from .env file for different environments (test and main)
   -  Created a sync.go to sync the models with the database 
 ### Created a main.go
-  - used cobra to create a cli tool  to interact with the application 
+  - used cobra to interact with the command line
 
 ### Created crud for Customer (1.5 hour) 
   - Created a customer.go to create a customer model and crud operations
@@ -25,7 +25,7 @@
 
 ### Getting started: 
 1. Clone the repo
-2. Create a .env and .env.test file in the root directory and add the following variables
+2. Create an .env and .env.test file in the root directory and add the following variables
 ```bash
 DB_STRING="user:password@tcp(127.0.0.1:port)/dbname?charset=utf8mb4&parseTime=True&loc=Local"
 ```
@@ -57,29 +57,5 @@ DB_STRING="user:password@tcp(127.0.0.1:port)/dbname?charset=utf8mb4&parseTime=Tr
    go test ./cmd -run  func_name 
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+### Refactoring:
+Pending 
