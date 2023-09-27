@@ -33,6 +33,3 @@ DB_STRING="user:password@tcp(127.0.0.1:port)/dbname?charset=utf8mb4&parseTime=Tr
 ```bash
    go test ./cmd -run  func_name 
 ```
-
-### Refactoring:
-Pending 
