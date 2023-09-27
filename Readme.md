@@ -1,27 +1,4 @@
-### Project setup (15 minutes)
- - Project setup 
- - Installing dependencies
- - Folder structure
- - Docker and docker-compose 
- - Created a docker-compose.yml file to define the MySQL container for test and  main DB
 
-### Setting and establishing DB connection (15 minutes)
-  -  used gorm.io/gorm  and gorm.io/driver/mysql to create models and connect to the database
-  -  Created a db.go to take dsn and return a db connection for test and main DB
-  -  used godoenv to load env variables from .env file for different environments (test and main)
-  -  Created a sync.go to sync the models with the database 
-### Created a main.go
-  - used cobra to interact with the command line
-
-### Created crud for Customer (1.5 hour) 
-  - Created a customer.go to create a customer model and crud operations
-   - validation
-  - Created a customer_test.go to test the crud operations
-
-### Created crud for Orders (1.5 hour)
-  - Created a order.go to create a order model and crud operations
-  - validation
-  - Created a order_test.go to test the crud operations
 
 ### Getting started: 
 1. Clone the repo
